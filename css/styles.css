@@ -163,10 +163,6 @@ header .logo span {
     background-color: #404bbf;
 }
 
-.benefits-title {
-    margin-bottom: 8px;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -178,6 +174,10 @@ header .logo span {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.benefits-title {
+    margin-bottom: 8px;
 }
 
 .benefits-list {
