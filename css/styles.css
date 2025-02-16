@@ -116,9 +116,13 @@ header .logo span {
     color: #404bbf;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .hero {
     background-color: #2e2f42;
-    margin-bottom: 120px;
 }
 
 .hero-content {
@@ -157,7 +161,6 @@ header .logo span {
 }
 
 .benefits-section {
-    margin-bottom: 120px;
 }
 
 .visually-hidden {
@@ -201,7 +204,6 @@ header .logo span {
 
 .team-section {
     background-color: #F4F4FD;
-    margin-bottom: 120px;
 }
 
 .team-title {
@@ -251,7 +253,6 @@ header .logo span {
 }
 
 .portfolio-section {
-    margin-bottom: 120px;
 }
 
 .portfolio-title {
