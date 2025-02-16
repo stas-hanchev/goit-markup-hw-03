@@ -208,7 +208,6 @@ header .logo span {
 }
 
 .team-title {
-    padding: 0 0 72px 0;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -229,7 +228,6 @@ header .logo span {
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
@@ -297,8 +295,6 @@ header .logo span {
 } 
 
 .portfolio-description {
-    padding-left: 16px;
-    margin-bottom: 80px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
