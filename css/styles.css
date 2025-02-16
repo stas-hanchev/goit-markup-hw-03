@@ -4,6 +4,21 @@ body {
     color: #434455;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 a {
     text-decoration: none;
 
@@ -17,7 +32,37 @@ button {
     cursor: pointer;
 }
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 header .logo {
+    padding: 24px 0;
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -32,6 +77,9 @@ header .logo span {
 }
 
 .nav-item {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -44,10 +92,19 @@ header .logo span {
 }
 
 .addr {
+    margin-left: auto;
     font-style: normal;
 }
 
+.addr-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 .addr-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -61,9 +118,16 @@ header .logo span {
 
 .hero {
     background-color: #2e2f42;
+    margin-bottom: 120px;
+}
+
+.hero-content {
+    padding: 188px 316px 292px 316px;
 }
 
 .hero-title {
+    max-width: 496px;
+    margin-bottom: 48px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -73,6 +137,11 @@ header .logo span {
 }
 
 .hero-btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     color: #fff;
     font-weight: 500;
@@ -80,10 +149,38 @@ header .logo span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover, .hero-btn:focus {
     background-color: #404bbf;
+}
+
+.benefits-section {
+    margin-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.benefits-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.benefits-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .benefits-subtitle {
@@ -104,9 +201,11 @@ header .logo span {
 
 .team-section {
     background-color: #F4F4FD;
+    margin-bottom: 120px;
 }
 
 .team-title {
+    padding: 120px 0 72px 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -116,11 +215,23 @@ header .logo span {
     text-transform: capitalize;
 }
 
+.team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
 .team-item{
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .member-subtitle {
+    padding-top: 32px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -130,6 +241,7 @@ header .logo span {
 }
 
 .member-description {
+    padding-top: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -138,7 +250,12 @@ header .logo span {
     color: #434455;
 }
 
+.portfolio-section {
+    margin-bottom: 120px;
+}
+
 .portfolio-title {
+    padding: 120px 0 72px 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -148,7 +265,15 @@ header .logo span {
     text-transform: capitalize;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 .portfolio-subtitle {
+    padding: 32px 0 8px 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -157,6 +282,8 @@ header .logo span {
 } 
 
 .portfolio-description {
+    padding-left: 16px;
+    margin-bottom: 80px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -165,10 +292,14 @@ header .logo span {
 }
 
 .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #2e2f42;
 }
 
 .footer-logo {
+    display: block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -183,6 +314,7 @@ header .logo span {
 }
 
 .footer-info {
+    max-width: 264px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
