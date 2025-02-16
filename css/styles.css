@@ -176,10 +176,6 @@ header .logo span {
     overflow: hidden;
 }
 
-.benefits-title {
-    margin-bottom: 8px;
-}
-
 .benefits-list {
     display: flex;
     flex-direction: row;
@@ -191,6 +187,7 @@ header .logo span {
 }
 
 .benefits-subtitle {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
